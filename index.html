@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/b989d734cb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="main.js"></script>
+    <title>Organic Recipes - EasyMeals</title>
+  </head>
+  <body>
+    <!-- SCROLL TO TOP BUTTON HERE ---------------- -->
+
+    <div
+      class="scroll-to-top d-flex align-center flex-center cursor-pointer"
+      onclick="topFunction()"
+    >
+      <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- HEADER HERE ------------------- -->
+
+    <header class="d-flex space-btw transparent">
+      <div
+        class="social-head d-flex align-center flex-wrap flex-center font-size-13"
+      >
+        <div class="social-icon cursor-pointer">
+          <i class="fab fa-instagram"></i>
+        </div>
+        <div class="social-icon cursor-pointer">
+          <i class="fab fa-twitter"></i>
+        </div>
+        <div class="social-icon cursor-pointer">
+          <i class="fab fa-facebook-f"></i>
+        </div>
+        <div class="social-icon cursor-pointer">
+          <i class="fab fa-pinterest-p"></i>
+        </div>
+        <div class="social-icon cursor-pointer"><i class="fas fa-rss"></i></div>
+        <div class="social-icon cursor-pointer">
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+      <div
+        class="menu-bar d-flex flex-center align-center font-size height-105"
+      >
+        <div class="m-left d-flex flex-end font-color">
+          <a href="#" class="menu-bar-item margin-r-48 cursor-pointer">HOME</a>
+          <a href="#" class="menu-bar-item margin-r-48 cursor-pointer"
+            >RECIPES</a
+          >
+          <div class="star"><i class="fas fa-star"></i></div>
+          <a href="#" class="menu-bar-item cursor-pointer">FORUM</a>
+        </div>
+        <div class="m-title d-flex flex-center cursor-pointer font-color">
+          <h1>EASYMEALS</h1>
+        </div>
+        <div class="m-right d-flex font-size font-color">
+          <a href="#" class="menu-bar-item margin-r-48 cursor-pointer">SHOP</a>
+          <a href="#" class="menu-bar-item margin-r-48 cursor-pointer">ABOUT</a>
+          <a href="#" class="menu-bar-item cursor-pointer">CONTACT</a>
+        </div>
+        <div class="menu-bar-mobile">
+          <div class="smile"><i class="far fa-smile"></i></div>
+          <div class="register-mobile"><i class="far fa-user"></i></div>
+          <div class="menu-bar-mobile-icon"><i class="fas fa-bars"></i></div>
+        </div>
+      </div>
+      <div
+        class="account d-flex flex-end align-center flex-center font-size height-105"
+      >
+        <div class="register cursor-pointer font-color">
+          <i class="far fa-smile"></i>REGISTER
+        </div>
+        <div class="log-in cursor-pointer">
+          <i class="far fa-user"></i>LOGIN
+        </div>
+      </div>
+      <div class="menu-bar-open-mobile d-flex flex-column align-center">
+        <div class="close d-flex flex-end margin-t-30 cursor-pointer">
+          <i class="fas fa-times"></i>
+        </div>
+        <div class="menu-bar-mobile-link d-flex flex-column space-btw">
+          <div class="menu-bar-mobile-items cursor-pointer margin-t-30">
+            HOME<i class="fas fa-chevron-right margin-l-10"></i>
+          </div>
+          <div class="menu-bar-mobile-items cursor-pointer">
+            RECIPES<i class="fas fa-chevron-right margin-l-10"></i>
+          </div>
+          <div class="menu-bar-mobile-items cursor-pointer">
+            FORUM<i class="fas fa-chevron-right margin-l-10"></i>
+          </div>
+          <div class="menu-bar-mobile-items cursor-pointer">
+            SHOP<i class="fas fa-chevron-right margin-l-10"></i>
+          </div>
+          <div class="menu-bar-mobile-items cursor-pointer">
+            ABOUT<i class="fas fa-chevron-right margin-l-10"></i>
+          </div>
+          <div class="menu-bar-mobile-items cursor-pointer">
+            CONTACT<i class="fas fa-chevron-right margin-l-10"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- WELCOME SECTION HERE ----------------- -->
+
+    <div class="container-1 d-flex align-center">
+      <!-- <img src="h4-img-24.jpg" alt="#" /> -->
+      <div class="con-1 d-flex flex-column">
+        <div class="con-1-label d-flex font-size-13">
+          <div class="margin-r-12"><i class="fas fa-video"></i>0:38</div>
+          <div><i class="fas fa-tag"></i>PIES</div>
+        </div>
+        <div class="con-1-title cursor-pointer">
+          <h1>The healthiest way to start your day</h1>
+        </div>
+        <div class="con-1-article font-color">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aperiam
+          aliquid voluptas accusamus nostrum expedita quod harum repellat qui
+          blanditiis, impedit dignissimos id ex necessitatibus magnam odio
+          laborum rerum iure mollitia
+        </div>
+        <div class="author d-flex">
+          <div class="author-img cursor-pointer"></div>
+          <div class="margin-l-10 d-flex flex-column flex-center">
+            <div class="author-name cursor-pointer font-color">MAGI DAWSON</div>
+            <div class="author-date font-color">May 20, 2020</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SUBSCRIBE SECTION HERE ----------------- -->
+
+    <div class="d-flex flex-center">
+      <div class="container-sub d-flex align-center flex-center">
+        <div class="test d-flex align-center space-btw">
+          <div class="container-sub-text">Get My Free Cookbook Today!</div>
+          <div class="form d-flex">
+            <div class="container-sub-input margin-r-12">
+              <input type="text" class="input-name" placeholder="Your Name*" />
+              <input
+                type="text"
+                class="input-email"
+                placeholder="Your Email*"
+              />
+            </div>
+            <div
+              class="container-sub-button d-flex flex-center align-center cursor-pointer"
+            >
+              SUBSCRIBE
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RECIPES-1 SECTION HERE ---------------- -->
+
+    <div class="container-recipes-1 d-flex flex-center">
+      <div class="test-1 d-flex space-btw width-1200">
+        <div class="recipe-card margin-r-29-33">
+          <div
+            class="recipe-card-img card-1 cursor-pointer img-transition-r"
+          ></div>
+          <div class="recipe-info d-flex">
+            <div class="recipe-time">
+              <i class="far fa-clock"></i>60 MINUTES
+            </div>
+            <div class="recipe-diff">
+              <i class="far fa-thumbs-up"></i>MEDIUM
+            </div>
+          </div>
+          <div class="recipe-title cursor-pointer">
+            Tast croissant and tea for perfect breankfast
+          </div>
+        </div>
+        <div class="recipe-card margin-r-29-33">
+          <div
+            class="recipe-card-img card-2 cursor-pointer img-transition-r"
+          ></div>
+          <div class="recipe-info d-flex">
+            <div class="recipe-time"><i class="far fa-clock"></i>5 MINUTES</div>
+            <div class="recipe-diff">
+              <i class="far fa-thumbs-up"></i>SUPER EASY
+            </div>
+          </div>
+          <div class="recipe-title cursor-pointer">
+            Overnight oats with figs and honey recipe
+          </div>
+        </div>
+        <div class="recipe-card margin-r-29-33">
+          <div
+            class="recipe-card-img card-3 cursor-pointer img-transition-r"
+          ></div>
+          <div class="recipe-info d-flex">
+            <div class="recipe-time">
+              <i class="far fa-clock"></i>40 MINUTES
+            </div>
+            <div class="recipe-diff"><i class="far fa-thumbs-up"></i>EASY</div>
+          </div>
+          <div class="recipe-title cursor-pointer">
+            Rustic banana oatmeal and berry pancakes
+          </div>
+        </div>
+        <div class="recipe-card">
+          <div
+            class="recipe-card-img card-4 cursor-pointer img-transition-r"
+            id="test2"
+          ></div>
+          <div class="recipe-info d-flex">
+            <div class="recipe-time">
+              <i class="far fa-clock"></i>10 MINUTES
+            </div>
+            <div class="recipe-diff">
+              <i class="far fa-thumbs-up"></i>SUPER EASY
+            </div>
+          </div>
+          <div class="recipe-title cursor-pointer">
+            Berries and banana smoothie for a snack
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RECIPES VIDEO SECTION HERE -------------- -->
+
+    <div class="d-flex flex-center">
+      <div class="container-recipes-video d-flex width-1200">
+        <div class="container-recipes-video-img cursor-pointer"></div>
+        <div
+          class="container-recipes-video-info d-flex flex-center flex-column"
+        >
+          <div class="con-1-label d-flex padding-lr-70 font-size-13">
+            <div class="margin-r-12"><i class="fas fa-video"></i>0:38</div>
+            <div class="margin-l-10"><i class="fas fa-tag"></i>WAFFLES</div>
+          </div>
+          <div
+            class="con-re-vid-title padding-lr-70 margin-tb-20 cursor-pointer"
+          >
+            <h1>Perfect homemade waffles</h1>
+          </div>
+          <div class="con-re-vid-info padding-lr-70">
+            Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqut enim ad minim
+            veniamquis noercitation ullamconisi ut al
+          </div>
+          <div class="d-flex space-btw padding-l-70 margin-t-30">
+            <div class="author d-flex align-center">
+              <div class="author-img cursor-pointer"></div>
+              <div class="margin-l-10 d-flex flex-column flex-center">
+                <div class="author-name cursor-pointer">MAGI DAWSON</div>
+                <div class="author-date">May 20, 2020</div>
+              </div>
+            </div>
+            <div class="d-flex padding-r-90">
+              <div class="share d-flex align-center flex-center cursor-pointer">
+                <i class="fas fa-share-alt"></i>
+              </div>
+              <div
+                class="bookmark d-flex align-center flex-center margin-l-10 cursor-pointer"
+              >
+                <i class="fas fa-bookmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RECIPES-2 SECTION HERE --------------- -->
+
+    <div class="d-flex flex-center">
+      <div class="container-recipes-2 d-flex space-btw width-1200">
+        <div class="container-recipes-2-1 d-flex flex-column space-btw">
+          <div class="container-recipes-2-1-1">
+            <div
+              class="container-recipes-2-1-1-img container-recipes-2-sides-img cursor-pointer img-transition-r"
+            ></div>
+            <div class="con-1-label d-flex padding-tb-15 font-size-13">
+              <div class="margin-r-12">
+                <i class="far fa-clock"></i>45 MINUTES
+              </div>
+              <div><i class="far fa-thumbs-up"></i>MEDIUM</div>
+            </div>
+            <div
+              class="container-recipes-2-1-1-title margin-b-20 cursor-pointer"
+            >
+              <h3>Coffee and croissants, a perfect combination</h3>
+            </div>
+            <div class="author d-flex align-center">
+              <div class="author-img cursor-pointer"></div>
+              <div class="margin-l-10">
+                <div class="author-name cursor-pointer">SOPHIA VARGAS</div>
+                <div class="author-date">May 6, 2020</div>
+              </div>
+            </div>
+          </div>
+          <div class="container-recipes-2-1-1">
+            <div
+              class="container-recipes-2-1-2-img container-recipes-2-sides-img cursor-pointer img-transition-r"
+            ></div>
+            <div class="con-1-label d-flex padding-tb-15 font-size-13">
+              <div class="margin-r-12">
+                <i class="far fa-clock"></i>60 MINUTES
+              </div>
+              <div><i class="far fa-thumbs-up"></i>HARD</div>
+            </div>
+            <div
+              class="container-recipes-2-1-1-title margin-b-20 cursor-pointer"
+            >
+              <h3>Taylor’s whole grains 100% whole wheat bread</h3>
+            </div>
+            <div class="author d-flex align-center">
+              <div class="author-img cursor-pointer"></div>
+              <div class="margin-l-10">
+                <div class="author-name cursor-pointer">TAYLOR KINNY</div>
+                <div class="author-date">May 26, 2020</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-recipes-2-2">
+          <div
+            class="container-recipes-2-2-img cursor-pointer img-transition-r"
+          ></div>
+          <div class="container-recipes-2-2-info">
+            <div
+              class="con-1-label d-flex margin-lr-70-90 padding-t-30 padding-b-20 font-size-13"
+            >
+              <div class="margin-r-12">
+                <i class="far fa-clock"></i>15 MINUTES
+              </div>
+              <div><i class="far fa-thumbs-up"></i>SUPER EASY</div>
+            </div>
+            <div
+              class="container-recipes-2-2-title margin-lr-70-90 cursor-pointer"
+            >
+              <h1>Grain-free, gluten-free muesli recipe</h1>
+            </div>
+            <div
+              class="container-recipes-2-2-text margin-lr-70-90 padding-t-30"
+            >
+              Lorem ipsum dolor sit amet, consec tetuipisicing elit, sed do
+              eiusmod tempor dunt ut labore et dolore magna aliqut enim ad minim
+              veniamquis nostrud exercitation ullamco oris nisi ut aliquip ex ea
+              commodnsequat. Duis auolor in reprehenderit in voluptate velit
+              esse cillum
+            </div>
+            <div class="d-flex space-btw margin-lr-70-90 padding-t-30">
+              <div class="author d-flex align-center">
+                <div class="author-img cursor-pointer"></div>
+                <div class="margin-l-10">
+                  <div class="author-name cursor-pointer">LAURA DERN</div>
+                  <div class="author-date">May 6, 2020</div>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div
+                  class="share d-flex align-center flex-center cursor-pointer"
+                >
+                  <i class="fas fa-share-alt"></i>
+                </div>
+                <div
+                  class="bookmark d-flex align-center flex-center margin-l-10 cursor-pointer"
+                >
+                  <i class="fas fa-bookmark"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-recipes-2-1 d-flex flex-column space-btw">
+          <div class="container-recipes-2-1-1">
+            <div
+              class="container-recipes-2-1-3-img container-recipes-2-sides-img cursor-pointer img-transition-r"
+            ></div>
+            <div class="con-1-label d-flex padding-tb-15 font-size-13">
+              <div class="margin-r-12">
+                <i class="far fa-clock"></i>15 MINUTES
+              </div>
+              <div><i class="far fa-thumbs-up"></i>SUPER EASY</div>
+            </div>
+            <div
+              class="container-recipes-2-1-1-title margin-b-20 cursor-pointer"
+            >
+              <h3>Blueberries and cream almond oatmeal breakfast</h3>
+            </div>
+            <div class="author d-flex align-center">
+              <div class="author-img cursor-pointer"></div>
+              <div class="margin-l-10">
+                <div class="author-name cursor-pointer">TAYLOR KINNY</div>
+                <div class="author-date">May 6, 2020</div>
+              </div>
+            </div>
+          </div>
+          <div class="container-recipes-2-1-1">
+            <div
+              class="container-recipes-2-1-4-img container-recipes-2-sides-img cursor-pointer img-transition-r"
+            ></div>
+            <div class="con-1-label d-flex padding-tb-15 font-size-13">
+              <div class="margin-r-12">
+                <i class="far fa-clock"></i>20 MINUTES
+              </div>
+              <div><i class="far fa-thumbs-up"></i>SUPER EASY</div>
+            </div>
+            <div
+              class="container-recipes-2-1-1-title margin-b-20 cursor-pointer"
+            >
+              <h3>The best banana-mango smoothie recipe</h3>
+            </div>
+            <div class="author d-flex align-center">
+              <div class="author-img cursor-pointer"></div>
+              <div class="margin-l-10">
+                <div class="author-name cursor-pointer">SOPHIA VARGAS</div>
+                <div class="author-date">May 6, 2020</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FORUM SECTION HERE ------------------- -->
+
+    <div class="d-flex flex-center">
+      <div
+        class="container-forum margin-t-30 d-flex flex-column align-center flex-center width-1200"
+      >
+        <h1>Easy Meals Forum</h1>
+        <h4>186.281 users, 184.853 recipes, 1.432.915 photos</h4>
+        <div class="join-now d-flex align-center flex-center cursor-pointer">
+          JOIN NOW
+        </div>
+      </div>
+    </div>
+
+    <!-- 8 CARDS SECTION HERE ---------------------- -->
+    <div class="d-flex flex-center">
+      <div
+        class="container-recipes-3 d-flex space-btw margin-t-30 width-1200 flex-wrap"
+      >
+        <div class="recipe-card margin-r-29-33 margin-b-20">
+          <div
+            class="recipe-card-img card-5 cursor-pointer img-transition-r"
+          ></div>
+          <div class="recipe-info d-flex">
+            <div class="recipe-time">
+              <i class="far fa-clock"></i>60 MINUTES
+            </div>
+            <div class="recipe-diff">
+              <i class="far fa-thumbs-up"></i>MEDIUM
+            </div>
+          </div>
+          <div class="recipe-title cursor-pointer">
+            Quick and easy flaky pastry for tasty breakfast
+          </div>
+        </div>
+        <div class="recipe-card margin-r-29-33 margin-b-20">
+          <div
+            class="recipe-card-img card-6 cursor-pointer img-transition-r"
+          ></div>
+          <div class="recipe-info d-flex">
+            <div class="recipe-time">
+              <i class="far fa-clock"></i>30 MINUTES
+            </div>
+            <div class="recipe-diff"><i class="far fa-thumbs-up"></i>EASY</div>
+          </div>
+          <div class="recipe-title cursor-pointer">
+            Grab-and-go quick breakfast recipes for you
+          </div>
+        </div>
+        <div class="recipe-card margin-r-29-33 margin-b-20">
+          <div
+            class="recipe-card-img card-7 cursor-pointer img-transition-r"
+          ></div>
+          <div class="recipe-info d-flex">
+            <div class="recipe-time">
+              <i class="far fa-clock"></i>15 MINUTES
+            </div>
+            <div class="recipe-diff">
+              <i class="far fa-thumbs-up"></i>SUPER EASY
+            </div>
+          </div>
+          <div class="recipe-title cursor-pointer">
+            Maggie’s baked flax seed granola recipe
+          </div>
+        </div>
+        <div class="recipe-card margin-r-29-33 margin-b-20">
+          <div
+            class="recipe-card-img card-8 cursor-pointer img-transition-r"
+          ></div>
+          <div class="recipe-info d-flex">
+            <div class="recipe-time">
+              <i class="far fa-clock"></i>40 MINUTES
+            </div>
+            <div class="recipe-diff"><i class="far fa-thumbs-up"></i>EASY</div>
+          </div>
+          <div class="recipe-title cursor-pointer">
+            Mini peach puff pastry tarts with honey
+          </div>
+        </div>
+        <div class="recipe-card margin-r-29-33">
+          <div
+            class="recipe-card-img card-9 cursor-pointer img-transition-r"
+          ></div>
+          <div class="recipe-info d-flex">
+            <div class="recipe-time">
+              <i class="far fa-clock"></i>20 MINUTES
+            </div>
+            <div class="recipe-diff"><i class="far fa-thumbs-up"></i>EASY</div>
+          </div>
+          <div class="recipe-title cursor-pointer">
+            Spicy avocado on toast with hummus recipe
+          </div>
+        </div>
+        <div class="recipe-card margin-r-29-33">
+          <div
+            class="recipe-card-img card-10 cursor-pointer img-transition-r"
+          ></div>
+          <div class="recipe-info d-flex">
+            <div class="recipe-time">
+              <i class="far fa-clock"></i>40 MINUTES
+            </div>
+            <div class="recipe-diff">
+              <i class="far fa-thumbs-up"></i>MEDIUM
+            </div>
+          </div>
+          <div class="recipe-title cursor-pointer">
+            Easy and quick golden Gouda mushroom soup
+          </div>
+        </div>
+        <div class="recipe-card margin-r-29-33">
+          <div
+            class="recipe-card-img card-11 cursor-pointer img-transition-r"
+          ></div>
+          <div class="recipe-info d-flex">
+            <div class="recipe-time">
+              <i class="far fa-clock"></i>15 MINUTES
+            </div>
+            <div class="recipe-diff">
+              <i class="far fa-thumbs-up"></i>MEDIUM
+            </div>
+          </div>
+          <div class="recipe-title cursor-pointer">
+            Freshly squeezed orange juice with bits and limes
+          </div>
+        </div>
+        <div class="recipe-card margin-r-29-33">
+          <div
+            class="recipe-card-img card-12 cursor-pointer img-transition-r"
+          ></div>
+          <div class="recipe-info d-flex">
+            <div class="recipe-time">
+              <i class="far fa-clock"></i>40 MINUTES
+            </div>
+            <div class="recipe-diff"><i class="far fa-thumbs-up"></i>EASY</div>
+          </div>
+          <div class="recipe-title cursor-pointer">
+            Peanut butter and chocolate chip pancakes
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- INSTAGRAM HEADER HERE -------------------- -->
+
+    <div class="d-flex flex-center">
+      <div
+        class="container-ig-header d-flex align-center flex-center margin-t-30 width-1200"
+      >
+        <div class="hr grow-2"><hr /></div>
+        <div class="grow-1 d-flex flex-center">
+          <h3>@easy_meals on Instagram</h3>
+        </div>
+        <div class="hr grow-2"><hr /></div>
+      </div>
+    </div>
+
+    <!-- INSTAGRAM IMAGES HERE ----------------- -->
+
+    <div class="d-flex flex-center">
+      <div class="ig-images d-flex space-btw margin-t-30 width-1200">
+        <div class="ig-img-1 ig-items d-flex flex-center align-center">
+          <i class="fab fa-instagram" id="ig-item-logo"></i>
+        </div>
+        <div class="ig-img-2 ig-items d-flex flex-center align-center">
+          <i class="fab fa-instagram" id="ig-item-logo"></i>
+        </div>
+        <div class="ig-img-3 ig-items d-flex flex-center align-center">
+          <i class="fab fa-instagram" id="ig-item-logo"></i>
+        </div>
+        <div class="ig-img-4 ig-items d-flex flex-center align-center">
+          <i class="fab fa-instagram" id="ig-item-logo"></i>
+        </div>
+        <div class="ig-img-5 ig-items d-flex flex-center align-center">
+          <i class="fab fa-instagram" id="ig-item-logo"></i>
+        </div>
+        <div class="ig-img-6 ig-items d-flex flex-center align-center">
+          <i class="fab fa-instagram" id="ig-item-logo"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER SECTION HERE ----------- -->
+    <div class="d-flex flex-center">
+      <footer
+        class="d-flex space-btw align-center margin-t-30 font-size-13 margin-b-15 width-1200"
+      >
+        <div class="copy height-100 d-flex align-center">
+          &copy; 2020 Interactive. All Rights Reserved
+        </div>
+        <div class="footer-menu-bar d-flex space-btw font-size-13">
+          <div class="footer-menu-item cursor-pointer">HOME</div>
+          <div class="footer-menu-item cursor-pointer">RECIPES</div>
+          <div class="footer-menu-item cursor-pointer">SHOP</div>
+          <div class="footer-menu-item cursor-pointer">ABOUT</div>
+          <div class="footer-menu-item cursor-pointer">CONTACT</div>
+        </div>
+        <div class="footer-icons-bar d-flex align-center flex-end font-size-13">
+          <div class="social-icon cursor-pointer">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class="social-icon cursor-pointer">
+            <i class="fab fa-twitter"></i>
+          </div>
+          <div class="social-icon cursor-pointer">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+          <div class="social-icon cursor-pointer">
+            <i class="fab fa-pinterest-p"></i>
+          </div>
+          <div class="social-icon cursor-pointer">
+            <i class="fas fa-rss"></i>
+          </div>
+          <div class="social-icon cursor-pointer margin-r-0">
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
